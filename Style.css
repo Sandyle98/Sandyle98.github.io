@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ccb29a;
+}
+
+header {
+    margin: 2% 2% 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-content {
+    display: flex;
+    align-items: baseline;
+    font-weight: 800;
+}
+
+.logo {
+    margin-right: 4%;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 2%;
+    font-weight: 600;
+}
+
+header a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+@media(max-width:767px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-weight: 800;
+    }
+
+    .logo {
+        padding-right: 3%;
+    }
+
+    nav {
+        margin-top: 3%;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    header ul li {
+        font-weight: 600;
+    }
+
+    header a {
+        color: black;
+    }
+}
+
+.spoti-content {
+    margin: 2% 2% 2%;
+    background-image: url(Imagenes/S-back\ 2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.spoti-content iframe {
+    display: flex;
+}
+
+.spoti-txt {
+    display: flex;
+    justify-content: center;
+}
+
+.spoti-txt h2 {
+    font-weight: 600;
+    color: white;
+}
+
+.sdescrip-content {
+    margin: 2% 2% 2% 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ranking-txt {
+    margin: 2% 2% 2% 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.ranking-txt h1 {
+    color: rgb(92, 89, 89);
+}
+
+.ranking-txt p {
+    color: rgb(92, 89, 89);
+}
+
+.giphy-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.giphy-1 p a {
+    color: black;
+}
+
+.giphy-1 a:hover {
+    color: white;
+}
+
+@media(max-width:767px) {
+    .spoti-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .spoti-txt {
+        display: flex;
+        justify-content: center;
+    }
+
+    .spoti-iframe {
+        width: 90%;
+    }
+
+    .sdescrip-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sdescrip-h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sdescrip-content p {
+        display: flex;
+    }
+}
+
+.contenedor-1 {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.peli-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.peli-1 p {
+    text-align: center;
+}
+
+.peli-1 img {
+    height: 300px;
+}
+
+.peli-1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.peli-1 a:hover {
+    color: white;
+}
+
+.peli-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.peli-2 p {
+    text-align: center;
+}
+
+.peli-2 img {
+    height: 300px;
+}
+
+.peli-2 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.peli-2 a:hover {
+    color: white;
+}
+
+.contenedor-2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.peli-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.peli-3 p {
+    text-align: center;
+}
+
+.peli-3 img {
+    height: 300px;
+}
+
+.peli-3 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.peli-3 a:hover {
+    color: white;
+}
+
+.peli-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.peli-4 p {
+    text-align: center;
+}
+
+.peli-4 img {
+    height: 300px;
+}
+
+.peli-4 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.peli-4 a:hover {
+    color: white;
+}
+
+.contenedor-3 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.peli-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.peli-5 p {
+    text-align: center;
+}
+
+.peli-5 img {
+    height: 300px;
+}
+
+.peli-5 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.peli-5 a:hover {
+    color: white;
+}
+
+.peli-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.peli-6 p {
+    text-align: center;
+}
+
+.peli-6 img {
+    height: 300px;
+}
+
+.peli-6 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.peli-6 a:hover {
+    color: white;
+}
+
+.recep-txt{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+.red-txt {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+}
+
+.red-s {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.logo-x {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.logo-instagram {
+    height: 70px;
+}
+
+.logo-facebook {
+    height: 50px;
+}
+
+footer {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media(max-width:767px) {
+
+    .peli-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peli-1 p {
+        text-align: center;
+    }
+
+    .peli-1 img {
+        height: 300px;
+    }
+
+    .peli-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peli-2 p {
+        text-align: center;
+    }
+
+    .peli-2 img {
+        height: 300px;
+    }
+
+    .peli-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peli-3 p {
+        text-align: center;
+    }
+
+    .peli-3 img {
+        height: 300px;
+    }
+
+    .peli-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peli-4 p {
+        text-align: center;
+    }
+
+    .peli-4 img {
+        height: 300px;
+    }
+
+    .peli-5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peli-5 p {
+        text-align: center;
+    }
+
+    .peli-5 img {
+        height: 300px;
+    }
+
+    .peli-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peli-6 p {
+        text-align: center;
+    }
+
+    .peli-6 img {
+        height: 300px;
+    }
+}
+
+/* Pagina About us */
+
+.logo-content2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.nosotros-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: url(Imagenes/imagen-aboutus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.nosotros-container h1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 40%;
+    margin-top: 8%;
+}
+
+.nosotros-container p {
+    display: flex;
+    justify-content: center;
+    padding-left: 50%;
+    padding-right: 10%;
+    margin-bottom: 27%;
+}
+
+@media(max-width:767px) {
+
+    .nosotros-container {
+        display: flex;
+        text-align: center;
+background-image: url(Imagenes/fondo-aboutus.jpg);
+    }
+
+    .nosotros-container h1 {
+        display: flex;
+        justify-content: center;
+        padding-left: 1%;
+    }
+
+    .nosotros-container p {
+        display: flex;
+        justify-content: center;
+        padding-left: 10%;
+        margin-bottom: 20%;
+    }
+}
